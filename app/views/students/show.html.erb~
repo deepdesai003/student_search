@@ -1,0 +1,19 @@
+<p>
+  <strong>Student Name:</strong>
+  <%= @student.student_name %>
+</p>
+ 
+<p>
+  <strong>Enrollment:</strong>
+  <%= @student.e_no %>
+</p>
+
+<p>
+  <strong>College:</strong>
+  <%= @student.co %>
+</p>
+
+<p>
+  <strong>Major:</strong>
+  <%= @student.major %>
+</p>

@@ -1,0 +1,19 @@
+<h1>Listing Student Data</h1>
+ 
+<table>
+  <tr>
+    <th>Student Name</th>
+    <th>Enrollment Number</th>
+    <th>College</th>
+    <th>Major</th>
+  </tr>
+ 
+  <% @student.each do |student| %>
+    <tr>
+      <td><%= student.student_name %></td>
+      <td><%= student.e_no %></td>
+      <td><%= student.co %></td>
+      <td><%= student.major %></td>
+    </tr>
+  <% end %>
+</table>

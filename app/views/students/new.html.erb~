@@ -1,0 +1,26 @@
+<h1>Add Your Student Data</h1>
+<%= form_for :student, url: students_path do |f| %>
+  <p>
+    <%= f.label :"Student Name" %><br>
+    <%= f.text_field :student_name %>
+  </p>
+
+  <p>
+    <%= f.label :"Enrollment Number" %><br>
+    <%= f.text_field :e_no %>
+  </p>
+  <p>
+    <%= f.label :College %><br>
+    <%= f.text_field :col %>
+  </p>
+  <p>
+    <%= f.label :Major %><br>
+    <%= f.text_field :major %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
+
