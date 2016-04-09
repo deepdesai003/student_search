@@ -10,10 +10,12 @@
 
 <p>
   <strong>College:</strong>
-  <%= @student.co %>
+  <%= @student.col %>
 </p>
 
 <p>
   <strong>Major:</strong>
   <%= @student.major %>
 </p>
+
+<%= link_to 'Home', students_path %>   <%= link_to 'Back', new_students_path %>
