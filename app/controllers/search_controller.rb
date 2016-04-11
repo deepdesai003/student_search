@@ -6,5 +6,5 @@ def search
     @students = Student.search params[:q]
   end
 end
-end
+
 end
