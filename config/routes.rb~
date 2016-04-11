@@ -6,6 +6,7 @@ get 'search', to: 'search#search'
 
   # You can have the root of your site routed with "root"
   root 'students#index'
+<<<<<<< HEAD
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -63,6 +64,8 @@ get 'search', to: 'search#search'
 
   # You can have the root of your site routed with "root"
   root 'students#index'
+=======
+>>>>>>> db8426fef5cba11bd092e7137b950c8e815db2d3
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

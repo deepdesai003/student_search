@@ -1,2 +1,15 @@
 class SearchController < ApplicationController
+def search
+  if params[:q].nil?
+    @students = []
+  else
+    @students = Student.search params[:q]
+  end
 end
+<<<<<<< HEAD
+
+end
+=======
+end
+
+>>>>>>> db8426fef5cba11bd092e7137b950c8e815db2d3

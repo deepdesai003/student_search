@@ -4,7 +4,14 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
+<<<<<<< HEAD
 
+=======
+gem 'pg'
+
+gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
+>>>>>>> db8426fef5cba11bd092e7137b950c8e815db2d3
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -49,4 +56,6 @@ gem 'sqlite3', group: [:test, :development]
 gem 'rails_12factor', group: :production # for heroku
 gem 'bonsai-elasticsearch-rails', group: :production # for Bonsai plugin on heroku
 gem 'pg', group: :production # using postgresql in production
-
+	
+gem 'elasticsearch-model' # for elasticsearch
+gem 'elasticsearch-rails' # for elasticsearch
