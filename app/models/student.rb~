@@ -9,5 +9,5 @@ validates :e_no, presence: true,
 validates :col, presence: true
 validates :major, presence: true
 end
-Student.import force: true
+Student.import:force
 # for auto sync model with elastic search

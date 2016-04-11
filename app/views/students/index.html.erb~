@@ -12,7 +12,7 @@
     <tr>
       <td><%= student.student_name %></td>
       <td><%= student.e_no %></td>
-      <td><%= student.co %></td>
+      <td><%= student.col %></td>
       <td><%= student.major %></td>
     </tr>
   <% end %>
